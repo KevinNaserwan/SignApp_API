@@ -143,6 +143,6 @@ func main() {
 	router.GET("/bisindo-signs", getSignsBisindo)
 	router.GET("/bisindo-signs/:Item", getSignBisindo)
 	router.POST("/addsigns", addSigns)
-	router.Run("localhost:9090")
+	router.Run(":8080")
 }
 
